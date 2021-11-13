@@ -9,6 +9,15 @@ let sopranos = [
     'paesan',
     'stugots',
     'stunad',
+    'tony',
+    'carmela',
+    'meadow',
+    'pussy',
+    'silvio',
+    'paulie',
+    'bada bing',
+    'christopher',
+    'furio',
 ];
 /* Game */
 const youWon = "You Won!";
