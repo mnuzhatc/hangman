@@ -16,7 +16,7 @@ let sopranos = [
     'silvio',
     'paulie',
     'bada bing',
-    'christopher',
+    'moltisanti',
     'furio',
 ];
 /* Game */
