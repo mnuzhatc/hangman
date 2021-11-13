@@ -1,6 +1,6 @@
 
 let sopranos = [
-	'goomar',
+    'goomar',
     'gabagool',
     'mozzarell',
     'marone',
