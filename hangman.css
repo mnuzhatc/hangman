@@ -1,0 +1,120 @@
+@font-face {
+    font-family: 'frauncesblack';
+    src: url('frauncessoftwonkopszwght-webfont.woff2') format('woff2'),
+         url('frauncessoftwonkopszwght-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'romelio_sansregular';
+    src: url('romelio-webfont.woff2') format('woff2'),
+         url('romelio-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+body {
+    background-image: url(bg.jpeg);
+  }
+  
+  main {
+    max-width: 610px;
+    margin: auto;
+  }
+  
+  h1 {
+    text-align: center;
+    color: rgb(139, 25, 21);
+    font-family: 'frauncesblack';
+    font-size: 50px;
+  }
+  
+  .win {
+    color: white;
+    background-color: green;
+  }
+  
+  .loss {
+    color: white;
+    background-color: red;
+  }
+  
+  #word {
+    letter-spacing: 10px;
+    text-align: center;
+    font-size: 24pt;
+    color: rgb(245, 245, 245);
+    font-weight: bold;
+    font-family: 'romelio_sansregular';
+  }
+  
+  #guesses {
+    text-align: center;
+    font-size: 16pt;
+    color: rgb(139, 25, 21);
+    font-weight: bold;
+    font-family: 'romelio_sansregular';
+  }
+  
+  .guess {
+    padding: 10px;
+    display: inline-block;
+    border: 2px solid rgb(255, 246, 246);
+    border-radius: 10px;
+    margin: 5px;
+    cursor: pointer;
+    background-color: rgba(143, 122, 110, 0.897);
+  }
+  
+  @media only screen and (min-device-width: 375px ) and (max-device-width: 667px) {
+      #guesses {
+      text-align: center;
+      font-size: 24pt;
+      color: rgb(155, 133, 112);
+      font-weight: bold;
+      font-family: 'romelio_sansregular;
+    }
+  
+    .guess {
+      padding: 30px;
+      display: inline-block;
+      border: 2px solid rgb(68, 59, 55);
+      border-radius: 10px;
+      margin: 10px;
+      cursor: pointer;
+    }
+  }
+  
+  #guessBox {
+      height: 60px;
+      border-radius: 10px;
+      padding-top: 5px;
+      font-size: 18pt;
+      width: 200px;
+      padding-left: 10px;
+  }
+  
+  /* Buttons */
+  .button {
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: rgb(255, 255, 255);
+    background-color: rgba(52, 58, 85, 0.63);
+    border: none;
+    border-radius: 15px;
+    font-family: 'frauncesblack';
+  }
+  
+  .button:hover {background-color: rgb(35, 46, 83)}
+  
+  .button:active {
+    background-color: rgb(99, 77, 69);
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
