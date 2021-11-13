@@ -20,8 +20,8 @@ let sopranos = [
     'furio',
 ];
 /* Game */
-const youWon = "You Won!";
-const youLost = "You Lost!";
+const youWon = "Grazie!";
+const youLost = "Whacked!";
 
 function Game()
 {
